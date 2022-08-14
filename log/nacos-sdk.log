@@ -1,0 +1,28 @@
+2022-08-11T21:38:35.628+0800	INFO	naming_http/push_receiver.go:86	udp server start, port: 55426
+2022-08-11T21:38:35.629+0800	DEBUG	rpc/rpc_client.go:276	7c225cdb-9c84-4bab-8d60-9a9e73774ab5 register server push request:ConnectResetRequest handler:ConnectResetRequestHandler
+2022-08-11T21:38:35.629+0800	DEBUG	rpc/rpc_client.go:276	7c225cdb-9c84-4bab-8d60-9a9e73774ab5 register server push request:ClientDetectionRequest handler:ClientDetectionRequestHandler
+2022-08-11T21:38:35.629+0800	INFO	rpc/rpc_client.go:214	[RpcClient.Start] 7c225cdb-9c84-4bab-8d60-9a9e73774ab5 try to connect to server on start up, server: {serverIp:localhost serverPort:8848}
+2022-08-11T21:38:35.630+0800	INFO	util/common.go:96	Local IP:192.168.0.3
+2022-08-11T21:38:35.751+0800	INFO	rpc/rpc_client.go:224	7c225cdb-9c84-4bab-8d60-9a9e73774ab5 success to connect to server {serverIp:localhost serverPort:8848} on start up, connectionId=1660225115634_172.0.0.1_62058
+2022-08-11T21:38:35.751+0800	DEBUG	rpc/rpc_client.go:276	7c225cdb-9c84-4bab-8d60-9a9e73774ab5 register server push request:NotifySubscriberRequest handler:NamingPushRequestHandler
+2022-08-11T21:38:35.751+0800	DEBUG	rpc/rpc_client.go:284	7c225cdb-9c84-4bab-8d60-9a9e73774ab5 register connection listener [*naming_grpc.ConnectionEventListener] to current client
+2022-08-11T21:38:35.751+0800	INFO	naming_grpc/naming_grpc_proxy.go:94	instance namespaceId:<e525eafa-f7d7-4029-83d9-008937f9d468>,serviceName:<demo.go> with instance:<{"instanceId":"","ip":"localhost","port":8888,"weight":10,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"","serviceName":"","metadata":{},"instanceHeartBeatInterval":0,"ipDeleteTimeout":0,"instanceHeartBeatTimeOut":0}>
+2022-08-11T21:49:35.551+0800	INFO	naming_http/push_receiver.go:86	udp server start, port: 55743
+2022-08-11T21:49:35.551+0800	DEBUG	rpc/rpc_client.go:276	fdf5feaf-3a42-4746-8b34-329d12158b4e register server push request:ConnectResetRequest handler:ConnectResetRequestHandler
+2022-08-11T21:49:35.551+0800	DEBUG	rpc/rpc_client.go:276	fdf5feaf-3a42-4746-8b34-329d12158b4e register server push request:ClientDetectionRequest handler:ClientDetectionRequestHandler
+2022-08-11T21:49:35.551+0800	INFO	rpc/rpc_client.go:214	[RpcClient.Start] fdf5feaf-3a42-4746-8b34-329d12158b4e try to connect to server on start up, server: {serverIp:localhost serverPort:8848}
+2022-08-11T21:49:35.552+0800	INFO	util/common.go:96	Local IP:192.168.0.3
+2022-08-11T21:49:35.678+0800	INFO	rpc/rpc_client.go:224	fdf5feaf-3a42-4746-8b34-329d12158b4e success to connect to server {serverIp:localhost serverPort:8848} on start up, connectionId=1660225775565_172.0.0.1_56902
+2022-08-11T21:49:35.678+0800	DEBUG	rpc/rpc_client.go:276	fdf5feaf-3a42-4746-8b34-329d12158b4e register server push request:NotifySubscriberRequest handler:NamingPushRequestHandler
+2022-08-11T21:49:35.679+0800	DEBUG	rpc/rpc_client.go:284	fdf5feaf-3a42-4746-8b34-329d12158b4e register connection listener [*naming_grpc.ConnectionEventListener] to current client
+2022-08-11T21:49:35.679+0800	INFO	naming_grpc/naming_grpc_proxy.go:94	instance namespaceId:<public>,serviceName:<demo> with instance:<{"instanceId":"","ip":"localhost","port":8888,"weight":10,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"","serviceName":"","metadata":{},"instanceHeartBeatInterval":0,"ipDeleteTimeout":0,"instanceHeartBeatTimeOut":0}>
+2022-08-11T22:07:59.936+0800	INFO	naming_http/push_receiver.go:86	udp server start, port: 55623
+2022-08-11T22:07:59.937+0800	DEBUG	rpc/rpc_client.go:276	e7105e83-22fc-450a-8843-82bde9416b76 register server push request:ConnectResetRequest handler:ConnectResetRequestHandler
+2022-08-11T22:07:59.938+0800	DEBUG	rpc/rpc_client.go:276	e7105e83-22fc-450a-8843-82bde9416b76 register server push request:ClientDetectionRequest handler:ClientDetectionRequestHandler
+2022-08-11T22:07:59.938+0800	INFO	rpc/rpc_client.go:214	[RpcClient.Start] e7105e83-22fc-450a-8843-82bde9416b76 try to connect to server on start up, server: {serverIp:localhost serverPort:8848}
+2022-08-11T22:07:59.939+0800	INFO	util/common.go:96	Local IP:192.168.0.3
+2022-08-11T22:08:00.118+0800	INFO	rpc/rpc_client.go:224	e7105e83-22fc-450a-8843-82bde9416b76 success to connect to server {serverIp:localhost serverPort:8848} on start up, connectionId=1660226879976_172.0.0.1_55780
+2022-08-11T22:08:00.119+0800	DEBUG	rpc/rpc_client.go:276	e7105e83-22fc-450a-8843-82bde9416b76 register server push request:NotifySubscriberRequest handler:NamingPushRequestHandler
+2022-08-11T22:08:00.119+0800	DEBUG	rpc/rpc_client.go:284	e7105e83-22fc-450a-8843-82bde9416b76 register connection listener [*naming_grpc.ConnectionEventListener] to current client
+2022-08-11T22:08:00.120+0800	INFO	naming_grpc/naming_grpc_proxy.go:94	instance namespaceId:<public>,serviceName:<ace-container> with instance:<{"instanceId":"","ip":"localhost","port":8888,"weight":10,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"","serviceName":"","metadata":{},"instanceHeartBeatInterval":0,"ipDeleteTimeout":0,"instanceHeartBeatTimeOut":0}>
+2022-08-11T22:08:00.120+0800	INFO	rpc/rpc_client.go:368	e7105e83-22fc-450a-8843-82bde9416b76 notify connected event to listeners.
